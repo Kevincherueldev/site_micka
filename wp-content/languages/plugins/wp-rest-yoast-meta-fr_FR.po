@@ -1,0 +1,36 @@
+# Translation of Plugins - WP REST Yoast Meta - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - WP REST Yoast Meta - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-09-07 10:17:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - WP REST Yoast Meta - Stable (latest release)\n"
+
+#: admin/class-admin.php:80
+msgid "WP REST Yoast Meta requires Yoast SEO or Yoast SEO Premium to be installed and activated"
+msgstr "WP REST Yoast Meta nécessite que l’extension Yoast SEO ou Yoast SEO Premium soit installée et activée."
+
+#. Author URI of the plugin
+#: wp-rest-yoast-meta.php
+msgid "https://www.acato.nl"
+msgstr "https://www.acato.nl"
+
+#. Author of the plugin
+#: wp-rest-yoast-meta.php
+msgid "Acato"
+msgstr "Acato"
+
+#. Description of the plugin
+#: wp-rest-yoast-meta.php
+msgid "Add yoast meta information to the WP REST API"
+msgstr "Ajouter les informations de méta Yoast à l’API REST de WP"
+
+#. Plugin Name of the plugin
+#: wp-rest-yoast-meta.php
+msgid "WP REST Yoast Meta"
+msgstr "WP REST Yoast Meta"

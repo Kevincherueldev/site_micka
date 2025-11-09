@@ -1,0 +1,753 @@
+0000.002 (0) Opened log file at time: Sun, 09 Nov 2025 13:49:22 +0000 on http://localhost:8000
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.8 WP: 6.8.3 PHP: 8.3.27 (apache2handler, Linux b3cd0d8ba246 6.6.87.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025 x86_64) MySQL: 5.7.44 (max packet size=4194304) WPLANG: fr_FR Server: Apache/2.4.65 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.3M | 14M) multisite: N openssl: OpenSSL 3.5.1 1 Jul 2025 mcrypt: N LANG: C WP Proxy: disabled ZipArchive::addFile: Y
+0000.009 (0) Free space on disk containing Updraft's temporary directory: 48210.8 MB
+0000.022 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.032 (0) Semaphore (fd, wp_options) being initialised
+0000.039 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.048 (0) Set semaphore last lock (fd) time to 2025-11-09 13:49:22
+0000.049 (0) Semaphore lock (fd) complete
+0000.057 (0) Backup run: resumption=0, nonce=00efb6a586f6, file_nonce=00efb6a586f6 begun at=1762696162 (0s ago), job type=backup
+0000.061 (0) Scheduling a resumption (1) after 300 seconds (1762696462) in case this run gets aborted
+0000.094 (0) Checking if we have a zip executable available
+0000.100 (0) Creation of backups of directories: beginning
+0000.112 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0016.620 (0) Total entities for the zip file: 2335 directories, 13863 files (0 skipped as non-modified), 194.9 MB
+0016.635 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0019.028 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 100 files added (on-disk size: 435.7 KB)
+0019.987 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 200 files added (on-disk size: 435.7 KB)
+0020.707 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (4.6 MB, 286 (287) files added so far); re-opening (prior size: 435.7 KB)
+0021.928 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 300 files added (on-disk size: 1199 KB)
+0022.709 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 400 files added (on-disk size: 1199 KB)
+0023.414 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.1 MB, 13863 files batched, 209 (496) added so far); re-opening (prior size: 1199 KB)
+0025.470 (0) A useful amount of data was added after this amount of zip processing: 3.8 s (normalised: 3.7 s, rate: 6835.7 KB/s)
+0025.477 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.7664639949799, normalised_time=3.7450321774598, max_time=25.470983982086, data points known=1, old_max_bytes=26214400, new_max_bytes=106974765)
+0025.527 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 500 files added (on-disk size: 6806.6 KB)
+0026.437 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 600 files added (on-disk size: 6806.6 KB)
+0027.524 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 700 files added (on-disk size: 6806.6 KB)
+0027.705 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (10.5 MB, 221 (717) files added so far); re-opening (prior size: 6806.6 KB)
+0029.963 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 800 files added (on-disk size: 9499.2 KB)
+0031.035 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 900 files added (on-disk size: 9499.2 KB)
+0031.710 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (6.3 MB, 246 (963) files added so far); re-opening (prior size: 9499.2 KB)
+0033.798 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 1000 files added (on-disk size: 11995 KB)
+0034.851 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 1100 files added (on-disk size: 11995 KB)
+0035.705 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (5 MB, 216 (1179) files added so far); re-opening (prior size: 11995 KB)
+0037.502 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 1200 files added (on-disk size: 13842.4 KB)
+0038.406 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 1300 files added (on-disk size: 13842.4 KB)
+0039.109 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 1400 files added (on-disk size: 13842.4 KB)
+0039.703 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.2 MB, 297 (1476) files added so far); re-opening (prior size: 13842.4 KB)
+0041.566 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 1500 files added (on-disk size: 14451.4 KB)
+0042.556 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 1600 files added (on-disk size: 14451.4 KB)
+0043.592 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 1700 files added (on-disk size: 14451.4 KB)
+0043.706 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 236 (1712) files added so far); re-opening (prior size: 14451.4 KB)
+0045.936 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 1800 files added (on-disk size: 14654.8 KB)
+0046.820 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 1900 files added (on-disk size: 14654.8 KB)
+0047.713 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.2 MB, 262 (1974) files added so far); re-opening (prior size: 14654.8 KB)
+0049.668 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 2000 files added (on-disk size: 15013.1 KB)
+0051.208 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 2100 files added (on-disk size: 15013.1 KB)
+0051.711 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.3 MB, 163 (2137) files added so far); re-opening (prior size: 15013.1 KB)
+0053.793 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 2200 files added (on-disk size: 15163.4 KB)
+0054.652 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 2300 files added (on-disk size: 15163.4 KB)
+0055.560 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 2400 files added (on-disk size: 15163.4 KB)
+0055.707 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (8.3 MB, 278 (2415) files added so far); re-opening (prior size: 15163.4 KB)
+0058.437 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 2500 files added (on-disk size: 17577.5 KB)
+0059.463 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 2600 files added (on-disk size: 17577.5 KB)
+0060.659 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 2700 files added (on-disk size: 17577.5 KB)
+0060.710 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.2 MB, 289 (2704) files added so far); re-opening (prior size: 17577.5 KB)
+0063.696 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 2800 files added (on-disk size: 17999.1 KB)
+0064.705 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.5 MB, 184 (2888) files added so far); re-opening (prior size: 17999.1 KB)
+0066.523 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 2900 files added (on-disk size: 18204.4 KB)
+0067.830 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 3000 files added (on-disk size: 18204.4 KB)
+0068.714 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.6 MB, 180 (3068) files added so far); re-opening (prior size: 18204.4 KB)
+0070.656 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 3100 files added (on-disk size: 18430.2 KB)
+0071.816 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 3200 files added (on-disk size: 18430.2 KB)
+0072.706 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.9 MB, 214 (3282) files added so far); re-opening (prior size: 18430.2 KB)
+0074.798 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 3300 files added (on-disk size: 18730.6 KB)
+0076.081 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 3400 files added (on-disk size: 18730.6 KB)
+0076.705 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.7 MB, 166 (3448) files added so far); re-opening (prior size: 18730.6 KB)
+0079.083 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 3500 files added (on-disk size: 18990 KB)
+0080.598 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 3600 files added (on-disk size: 18990 KB)
+0080.703 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1 MB, 158 (3606) files added so far); re-opening (prior size: 18990 KB)
+0083.565 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 3700 files added (on-disk size: 19278.3 KB)
+0084.704 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.6 MB, 167 (3773) files added so far); re-opening (prior size: 19278.3 KB)
+0086.896 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 3800 files added (on-disk size: 19478 KB)
+0088.029 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 3900 files added (on-disk size: 19478 KB)
+0088.707 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.1 MB, 181 (3954) files added so far); re-opening (prior size: 19478 KB)
+0090.971 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 4000 files added (on-disk size: 20182.3 KB)
+0091.733 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 4100 files added (on-disk size: 20182.3 KB)
+0092.617 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 4200 files added (on-disk size: 20182.3 KB)
+0092.703 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.8 MB, 258 (4212) files added so far); re-opening (prior size: 20182.3 KB)
+0095.371 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 4300 files added (on-disk size: 20690.9 KB)
+0096.029 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 4400 files added (on-disk size: 20690.9 KB)
+0096.711 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.8 MB, 279 (4491) files added so far); re-opening (prior size: 20690.9 KB)
+0098.765 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 4500 files added (on-disk size: 22299.8 KB)
+0099.499 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 4600 files added (on-disk size: 22299.8 KB)
+0100.341 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 4700 files added (on-disk size: 22299.8 KB)
+0100.703 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (10.3 MB, 271 (4762) files added so far); re-opening (prior size: 22299.8 KB)
+0103.453 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 4800 files added (on-disk size: 25442.3 KB)
+0104.237 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 4900 files added (on-disk size: 25442.3 KB)
+0105.656 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 5000 files added (on-disk size: 25442.3 KB)
+0105.715 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (9.1 MB, 242 (5004) files added so far); re-opening (prior size: 25442.3 KB)
+0109.861 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 5100 files added (on-disk size: 27840.2 KB)
+0110.718 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.6 MB, 147 (5151) files added so far); re-opening (prior size: 27840.2 KB)
+0113.321 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 5200 files added (on-disk size: 28125 KB)
+0114.300 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 5300 files added (on-disk size: 28125 KB)
+0114.714 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.1 MB, 183 (5334) files added so far); re-opening (prior size: 28125 KB)
+0117.940 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 5400 files added (on-disk size: 28663.5 KB)
+0119.422 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 5500 files added (on-disk size: 28663.5 KB)
+0119.708 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.3 MB, 184 (5518) files added so far); re-opening (prior size: 28663.5 KB)
+0122.874 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 5600 files added (on-disk size: 28833.9 KB)
+0123.936 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 5700 files added (on-disk size: 28833.9 KB)
+0124.705 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (4.1 MB, 254 (5772) files added so far); re-opening (prior size: 28833.9 KB)
+0127.567 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 5800 files added (on-disk size: 30296.5 KB)
+0128.696 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 5900 files added (on-disk size: 30296.5 KB)
+0129.708 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.4 MB, 194 (5966) files added so far); re-opening (prior size: 30296.5 KB)
+0132.501 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 6000 files added (on-disk size: 31078.5 KB)
+0134.031 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 6100 files added (on-disk size: 31078.5 KB)
+0134.704 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 179 (6145) files added so far); re-opening (prior size: 31078.5 KB)
+0137.744 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 6200 files added (on-disk size: 31201.7 KB)
+0138.715 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 6300 files added (on-disk size: 31201.7 KB)
+0139.520 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 6400 files added (on-disk size: 31201.7 KB)
+0139.708 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (4.9 MB, 276 (6421) files added so far); re-opening (prior size: 31201.7 KB)
+0143.299 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 6500 files added (on-disk size: 32403.1 KB)
+0144.459 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 6600 files added (on-disk size: 32403.1 KB)
+0144.704 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.2 MB, 208 (6629) files added so far); re-opening (prior size: 32403.1 KB)
+0147.447 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 6700 files added (on-disk size: 32746.2 KB)
+0148.189 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 6800 files added (on-disk size: 32746.2 KB)
+0149.170 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 6900 files added (on-disk size: 32746.2 KB)
+0149.713 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.2 MB, 327 (6956) files added so far); re-opening (prior size: 32746.2 KB)
+0152.669 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 7000 files added (on-disk size: 33206.9 KB)
+0153.402 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 7100 files added (on-disk size: 33206.9 KB)
+0154.077 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 7200 files added (on-disk size: 33206.9 KB)
+0154.714 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (4.6 MB, 332 (7288) files added so far); re-opening (prior size: 33206.9 KB)
+0157.966 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 7300 files added (on-disk size: 34751.3 KB)
+0158.754 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 7400 files added (on-disk size: 34751.3 KB)
+0159.539 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 7500 files added (on-disk size: 34751.3 KB)
+0160.156 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 7600 files added (on-disk size: 34751.3 KB)
+0160.710 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (5.9 MB, 376 (7664) files added so far); re-opening (prior size: 34751.3 KB)
+0163.896 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 7700 files added (on-disk size: 40330.7 KB)
+0164.684 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 7800 files added (on-disk size: 40330.7 KB)
+0165.461 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 7900 files added (on-disk size: 40330.7 KB)
+0165.709 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (5.8 MB, 266 (7930) files added so far); re-opening (prior size: 40330.7 KB)
+0169.584 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 8000 files added (on-disk size: 41635.8 KB)
+0169.970 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 8100 files added (on-disk size: 41635.8 KB)
+0170.628 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 8200 files added (on-disk size: 41635.8 KB)
+0171.560 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 8300 files added (on-disk size: 41635.8 KB)
+0171.712 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (4.5 MB, 387 (8317) files added so far); re-opening (prior size: 41635.8 KB)
+0175.720 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 8400 files added (on-disk size: 42802.5 KB)
+0176.482 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 8500 files added (on-disk size: 42802.5 KB)
+0177.400 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 8600 files added (on-disk size: 42802.5 KB)
+0177.704 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.2 MB, 309 (8626) files added so far); re-opening (prior size: 42802.5 KB)
+0181.932 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 8700 files added (on-disk size: 43474.8 KB)
+0183.264 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 8800 files added (on-disk size: 43474.8 KB)
+0183.710 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.1 MB, 235 (8861) files added so far); re-opening (prior size: 43474.8 KB)
+0187.517 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 8900 files added (on-disk size: 43807.2 KB)
+0188.688 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 9000 files added (on-disk size: 43807.2 KB)
+0189.612 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 9100 files added (on-disk size: 43807.2 KB)
+0189.706 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.4 MB, 246 (9107) files added so far); re-opening (prior size: 43807.2 KB)
+0194.214 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 9200 files added (on-disk size: 44224.4 KB)
+0195.246 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 9300 files added (on-disk size: 44224.4 KB)
+0195.708 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.1 MB, 235 (9342) files added so far); re-opening (prior size: 44224.4 KB)
+0199.322 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 9400 files added (on-disk size: 44598.5 KB)
+0200.366 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 9500 files added (on-disk size: 44598.5 KB)
+0201.519 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 9600 files added (on-disk size: 44598.5 KB)
+0201.703 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.9 MB, 275 (9617) files added so far); re-opening (prior size: 44598.5 KB)
+0205.847 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 9700 files added (on-disk size: 45147 KB)
+0206.912 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 9800 files added (on-disk size: 45147 KB)
+0207.713 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.6 MB, 256 (9873) files added so far); re-opening (prior size: 45147 KB)
+0211.085 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 9900 files added (on-disk size: 45642.9 KB)
+0212.172 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 10000 files added (on-disk size: 45642.9 KB)
+0213.075 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 10100 files added (on-disk size: 45642.9 KB)
+0213.708 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.3 MB, 297 (10170) files added so far); re-opening (prior size: 45642.9 KB)
+0217.262 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 10200 files added (on-disk size: 46084.9 KB)
+0218.211 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 10300 files added (on-disk size: 46084.9 KB)
+0219.367 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 10400 files added (on-disk size: 46084.9 KB)
+0219.710 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.9 MB, 263 (10433) files added so far); re-opening (prior size: 46084.9 KB)
+0223.775 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 10500 files added (on-disk size: 46718 KB)
+0225.054 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 10600 files added (on-disk size: 46718 KB)
+0225.717 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.2 MB, 217 (10650) files added so far); re-opening (prior size: 46718 KB)
+0229.541 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 10700 files added (on-disk size: 46972 KB)
+0230.812 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 10800 files added (on-disk size: 46972 KB)
+0231.711 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.9 MB, 230 (10880) files added so far); re-opening (prior size: 46972 KB)
+0235.548 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 10900 files added (on-disk size: 47280.4 KB)
+0236.760 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 11000 files added (on-disk size: 47280.4 KB)
+0237.532 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 11100 files added (on-disk size: 47280.4 KB)
+0237.705 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.5 MB, 234 (11114) files added so far); re-opening (prior size: 47280.4 KB)
+0242.071 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 11200 files added (on-disk size: 48447.1 KB)
+0243.143 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 11300 files added (on-disk size: 48447.1 KB)
+0243.709 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (4.8 MB, 268 (11382) files added so far); re-opening (prior size: 48447.1 KB)
+0247.967 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 11400 files added (on-disk size: 50014.1 KB)
+0248.919 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 11500 files added (on-disk size: 50014.1 KB)
+0249.937 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 11600 files added (on-disk size: 50014.1 KB)
+0250.706 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2 MB, 300 (11682) files added so far); re-opening (prior size: 50014.1 KB)
+0254.772 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 11700 files added (on-disk size: 50625 KB)
+0255.957 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 11800 files added (on-disk size: 50625 KB)
+0256.717 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.6 MB, 181 (11863) files added so far); re-opening (prior size: 50625 KB)
+0260.200 (0) The scheduled resumption is within 45 seconds - will reschedule
+0260.208 (0) Rescheduling resumption 1: moving to 345 seconds from now (1762696767)
+0260.218 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0260.755 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 11900 files added (on-disk size: 51078.4 KB)
+0261.881 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 12000 files added (on-disk size: 51078.4 KB)
+0262.714 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.3 MB, 213 (12076) files added so far); re-opening (prior size: 51078.4 KB)
+0266.551 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 12100 files added (on-disk size: 51796.5 KB)
+0267.967 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 12200 files added (on-disk size: 51796.5 KB)
+0268.708 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2 MB, 177 (12253) files added so far); re-opening (prior size: 51796.5 KB)
+0273.891 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 12300 files added (on-disk size: 53292 KB)
+0275.595 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 12400 files added (on-disk size: 53292 KB)
+0275.704 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.9 MB, 155 (12408) files added so far); re-opening (prior size: 53292 KB)
+0280.737 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 12500 files added (on-disk size: 53805.6 KB)
+0281.457 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 12600 files added (on-disk size: 53805.6 KB)
+0281.704 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.4 MB, 220 (12628) files added so far); re-opening (prior size: 53805.6 KB)
+0286.724 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 12700 files added (on-disk size: 54480.2 KB)
+0287.468 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 12800 files added (on-disk size: 54480.2 KB)
+0288.579 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 12900 files added (on-disk size: 54480.2 KB)
+0288.713 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (4.7 MB, 283 (12911) files added so far); re-opening (prior size: 54480.2 KB)
+0293.742 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 13000 files added (on-disk size: 56147.3 KB)
+0295.104 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 13100 files added (on-disk size: 56147.3 KB)
+0295.707 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.2 MB, 240 (13151) files added so far); re-opening (prior size: 56147.3 KB)
+0300.243 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 13200 files added (on-disk size: 56723.5 KB)
+0300.951 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 13300 files added (on-disk size: 56723.5 KB)
+0301.552 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 13400 files added (on-disk size: 56723.5 KB)
+0302.509 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 13500 files added (on-disk size: 56723.5 KB)
+0302.706 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (13.3 MB, 369 (13520) files added so far); re-opening (prior size: 56723.5 KB)
+0311.655 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 13600 files added (on-disk size: 62403.1 KB)
+0312.590 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 13700 files added (on-disk size: 62403.1 KB)
+0313.230 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.tmp: 13800 files added (on-disk size: 62403.1 KB)
+0318.715 (0) The time we have been running (318.7) is approaching the resumption interval (345) - increasing resumption interval to 349
+0318.856 (0) Creating zip file manifest (backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.list-temp.tmp)
+0320.673 (0) Successfully created zip file manifest (size: 1268379)
+0322.884 (0) Created plugins zip (0) - 64460.8 KB in 322.8 s (199.7 KB/s) (sha1: d1e9b551db7b72072292b09baf42827b8a107e33, sha256: a160f2c10a9e28cccb84191f35457bbc8ce5e518124befbda5cc02388194c051)
+0322.906 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0322.909 (0) No remote despatch: user chose no remote backup service
+0322.912 (0) Recording as successfully uploaded: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip
+0322.915 (0) Deleting zip manifest (backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip.list.tmp)
+0322.921 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0322.923 (0) Number of backup sets in history: 0; groups (db): 1
+0322.926 (0) Number of backup sets in history: 0; groups (files): 1
+0322.930 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0322.946 (0) Beginning creation of dump of themes (split every: 400 MB)
+0324.253 (0) Total entities for the zip file: 173 directories, 942 files (0 skipped as non-modified), 21.6 MB
+0325.386 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0325.713 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.1 MB, 133 (133) files added so far); re-opening (prior size: 0 KB)
+0326.382 (0) The time we have been running (326.4) is approaching the resumption interval (349) - increasing resumption interval to 357
+0327.192 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-themes.zip.tmp: 200 files added (on-disk size: 701 KB)
+0328.231 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-themes.zip.tmp: 300 files added (on-disk size: 701 KB)
+0328.705 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3 MB, 202 (335) files added so far); re-opening (prior size: 701 KB)
+0329.499 (0) The time we have been running (329.5) is approaching the resumption interval (357) - increasing resumption interval to 360
+0330.377 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-themes.zip.tmp: 400 files added (on-disk size: 1200.7 KB)
+0331.300 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-themes.zip.tmp: 500 files added (on-disk size: 1200.7 KB)
+0331.706 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.9 MB, 216 (551) files added so far); re-opening (prior size: 1200.7 KB)
+0332.603 (0) The time we have been running (332.6) is approaching the resumption interval (360) - increasing resumption interval to 363
+0333.111 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-themes.zip.tmp: 600 files added (on-disk size: 2032.2 KB)
+0333.811 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-themes.zip.tmp: 700 files added (on-disk size: 2032.2 KB)
+0334.602 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-themes.zip.tmp: 800 files added (on-disk size: 2032.2 KB)
+0334.709 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (10.1 MB, 262 (813) files added so far); re-opening (prior size: 2032.2 KB)
+0337.120 (0) The time we have been running (337.1) is approaching the resumption interval (363) - increasing resumption interval to 368
+0337.899 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-themes.zip.tmp: 900 files added (on-disk size: 11967.9 KB)
+0340.197 (0) The time we have been running (340.2) is approaching the resumption interval (368) - increasing resumption interval to 371
+0340.215 (0) Creating zip file manifest (backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-themes.zip.list-temp.tmp)
+0340.337 (0) Successfully created zip file manifest (size: 67140)
+0340.832 (0) Created themes zip (0) - 14908.7 KB in 17.9 s (834.1 KB/s) (sha1: 8b47f8af5a1c2e38f8c5d3936d11ccf4562be325, sha256: a3d9333c380219a5a2e6c92d85297c55d65eff71a95e8669addd1a14633b1510)
+0340.847 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0340.848 (0) No remote despatch: user chose no remote backup service
+0340.852 (0) Recording as successfully uploaded: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-themes.zip
+0340.856 (0) Deleting zip manifest (backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-themes.zip.list.tmp)
+0340.861 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0340.883 (0) Number of backup sets in history: 0; groups (db): 1
+0340.886 (0) Number of backup sets in history: 0; groups (files): 1
+0340.889 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0340.902 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots,wp-staging
+0340.905 (0) Looking for candidates to backup in: /var/www/html/wp-content/uploads
+0340.909 (0) finding files: 2025: adding to list (1)
+0340.912 (0) finding files: wc-logs: adding to list (2)
+0340.915 (0) finding files: woocommerce-placeholder-1024x1024.webp: adding to list (3)
+0340.916 (0) finding files: woocommerce-placeholder-150x150.webp: adding to list (4)
+0340.919 (0) finding files: woocommerce-placeholder-300x300.webp: adding to list (5)
+0340.920 (0) finding files: woocommerce-placeholder-768x768.webp: adding to list (6)
+0340.923 (0) finding files: woocommerce-placeholder.webp: adding to list (7)
+0340.924 (0) finding files: woocommerce_uploads: adding to list (8)
+0340.927 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0340.975 (0) Total entities for the zip file: 4 directories, 11 files (0 skipped as non-modified), 0 MB
+0341.083 (0) The time we have been running (341.1) is approaching the resumption interval (371) - increasing resumption interval to 372
+0341.091 (0) Creating zip file manifest (backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-uploads.zip.list-temp.tmp)
+0341.098 (0) Successfully created zip file manifest (size: 641)
+0341.120 (0) Created uploads zip (0) - 21.3 KB in 0.2 s (117.6 KB/s) (sha1: 03c1f0b5a337c93b0d6eac8766a7b7a60ed2915f, sha256: afab8119bfcf70f8b97b81ebeb62fbe294beeb688f9fe8aefbf6d8cbc2abbf3a)
+0341.133 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0341.136 (0) No remote despatch: user chose no remote backup service
+0341.139 (0) Recording as successfully uploaded: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-uploads.zip
+0341.142 (0) Deleting zip manifest (backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-uploads.zip.list.tmp)
+0341.148 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0341.149 (0) Number of backup sets in history: 0; groups (db): 1
+0341.152 (0) Number of backup sets in history: 0; groups (files): 1
+0341.154 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0341.163 (0) No backup of mu-plugins: excluded by user's options
+0341.169 (0) Beginning backup of other directories found in the content directory (index: 0)
+0341.171 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0341.173 (0) Looking for candidates to backup in: /var/www/html/wp-content
+0341.176 (0) finding files: .gitignore: adding to list (1)
+0341.179 (0) finding files: advanced-cache.php: adding to list (2)
+0341.181 (0) finding files: cache: skipping: excluded by options
+0341.183 (0) finding files: index.php: adding to list (3)
+0341.185 (0) finding files: languages: adding to list (4)
+0341.187 (0) finding files: plugins: skipping: this is the plugins directory
+0341.188 (0) finding files: themes: skipping: this is the themes directory
+0341.191 (0) finding files: updraft: skipping: this is the updraft directory
+0341.193 (0) finding files: upgrade: skipping: excluded by options
+0341.196 (0) finding files: uploads: skipping: this is the uploads directory
+0341.199 (0) finding files: wflogs: adding to list (5)
+0341.201 (0) finding files: wp-cache-config.php: adding to list (6)
+0341.669 (0) Total entities for the zip file: 4 directories, 547 files (0 skipped as non-modified), 19.5 MB
+0342.203 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0342.862 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0343.570 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0343.705 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (6.5 MB, 320 (320) files added so far); re-opening (prior size: 0 KB)
+0345.039 (0) The time we have been running (345) is approaching the resumption interval (372) - increasing resumption interval to 376
+0345.545 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-others.zip.tmp: 400 files added (on-disk size: 1993 KB)
+0346.127 (0) Zip: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-others.zip.tmp: 500 files added (on-disk size: 1993 KB)
+0351.053 (0) The time we have been running (351) is approaching the resumption interval (376) - increasing resumption interval to 382
+0351.073 (0) Creating zip file manifest (backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-others.zip.list-temp.tmp)
+0351.178 (0) Successfully created zip file manifest (size: 43082)
+0351.483 (0) Created others zip (0) - 7352.9 KB in 10.3 s (716 KB/s) (sha1: 4e0c0a56423f5588102938e917b51cc8634bbd8f, sha256: 9ecf9185d46d9a76c4546f74e9c24843109c416db154b36864dc690e6bb9dc01)
+0351.496 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0351.497 (0) No remote despatch: user chose no remote backup service
+0351.500 (0) Recording as successfully uploaded: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-others.zip
+0351.505 (0) Deleting zip manifest (backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-others.zip.list.tmp)
+0351.511 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0351.513 (0) Number of backup sets in history: 0; groups (db): 1
+0351.515 (0) Number of backup sets in history: 0; groups (files): 1
+0351.517 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0351.533 (0) Saving backup status to database (elements: 8)
+0351.537 (0) Beginning creation of database dump (WordPress DB)
+0351.540 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0351.598 (0) Table wp_options: Total expected rows (via COUNT): 494
+0351.601 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0351.643 (0) Table wp_options: Rows added in this batch (next record: 631): 490 (uncompressed bytes in this segment=1330713) in 0.05 seconds
+0351.665 (0) Table wp_options: finishing file(s) (2, 203.6 KB)
+0351.675 (0) Table wp_users: Total expected rows (via COUNT): 1
+0351.678 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0351.684 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1434) in 0.01 seconds
+0351.704 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0351.715 (0) Table wp_usermeta: Total expected rows (via COUNT): 27
+0351.717 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0351.722 (0) Table wp_usermeta: Rows added in this batch (next record: 27): 27 (uncompressed bytes in this segment=2582) in 0.01 seconds
+0351.743 (0) Table wp_usermeta: finishing file(s) (2, 1.2 KB)
+0351.756 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 14
+0351.757 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0351.763 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 20): 14 (uncompressed bytes in this segment=7409) in 0.01 seconds
+0351.782 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.3 KB)
+0351.791 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0351.797 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=606) in 0.01 seconds
+0351.815 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0351.826 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 5
+0351.829 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0351.835 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=777) in 0.01 seconds
+0351.853 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0351.864 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 16
+0351.868 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0351.870 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 16): 16 (uncompressed bytes in this segment=2024) in 0.01 seconds
+0351.891 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.6 KB)
+0351.905 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0351.910 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.01 seconds
+0351.931 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0351.941 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0351.945 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0351.952 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2401) in 0.01 seconds
+0351.971 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0351.982 (0) Table wp_links: Total expected rows (via COUNT): 0
+0351.988 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.01 seconds
+0352.005 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0352.018 (0) Table wp_postmeta: Total expected rows (via COUNT): 114
+0352.021 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0352.026 (0) Table wp_postmeta: Rows added in this batch (next record: 114): 114 (uncompressed bytes in this segment=5824) in 0.01 seconds
+0352.041 (0) The time we have been running (352) is approaching the resumption interval (382) - increasing resumption interval to 383
+0352.054 (0) Table wp_postmeta: finishing file(s) (2, 1.6 KB)
+0352.068 (0) Table wp_posts: Total expected rows (via COUNT): 20
+0352.069 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0352.075 (0) Table wp_posts: Rows added in this batch (next record: 20): 20 (uncompressed bytes in this segment=37334) in 0.01 seconds
+0352.096 (0) Table wp_posts: finishing file(s) (2, 7.8 KB)
+0352.104 (0) Table wp_term_relationships: Total expected rows (approximate): 14
+0352.109 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 14 (uncompressed bytes in this segment=879) in 0.01 seconds
+0352.129 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0352.142 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 16
+0352.145 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0352.150 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 16): 16 (uncompressed bytes in this segment=1516) in 0.01 seconds
+0352.172 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0352.185 (0) Table wp_termmeta: Total expected rows (via COUNT): 1
+0352.188 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0352.191 (0) Table wp_termmeta: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=752) in 0.01 seconds
+0352.211 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0352.221 (0) Table wp_terms: Total expected rows (via COUNT): 16
+0352.224 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0352.227 (0) Table wp_terms: Rows added in this batch (next record: 16): 16 (uncompressed bytes in this segment=1290) in 0.01 seconds
+0352.243 (0) Table wp_terms: finishing file(s) (2, 0.6 KB)
+0352.252 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 0
+0352.257 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=535) in 0.01 seconds
+0352.274 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.3 KB)
+0352.284 (0) Table wp_wc_product_meta_lookup: Total expected rows (via COUNT): 6
+0352.287 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0352.292 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: 18): 6 (uncompressed bytes in this segment=2072) in 0.01 seconds
+0352.309 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 0.6 KB)
+0352.317 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0352.323 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=665) in 0.01 seconds
+0352.341 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0352.351 (0) Table wp_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0352.354 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0352.360 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=812) in 0.01 seconds
+0352.376 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0352.388 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0352.392 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=771) in 0.01 seconds
+0352.411 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0352.423 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0352.425 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=798) in 0.01 seconds
+0352.446 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0352.455 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0352.461 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=529) in 0.01 seconds
+0352.479 (0) Table wp_e_events: finishing file(s) (2, 0.4 KB)
+0352.491 (0) Table wp_wc_admin_note_actions: Total expected rows (via COUNT): 78
+0352.493 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0352.498 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 858): 78 (uncompressed bytes in this segment=14693) in 0.01 seconds
+0352.519 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 2.7 KB)
+0352.533 (0) Table wp_wc_admin_notes: Total expected rows (via COUNT): 55
+0352.537 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0352.541 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 55): 55 (uncompressed bytes in this segment=28008) in 0.01 seconds
+0352.563 (0) Table wp_wc_admin_notes: finishing file(s) (2, 6.1 KB)
+0352.572 (0) Table wp_wc_customer_lookup: Total expected rows (via COUNT): 0
+0352.577 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.01 seconds
+0352.595 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0352.605 (0) Table wp_wc_download_log: Total expected rows (via COUNT): 0
+0352.608 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=747) in 0.00 seconds
+0352.627 (0) Table wp_wc_download_log: finishing file(s) (2, 0.4 KB)
+0352.637 (0) Table wp_wc_order_addresses: Total expected rows (via COUNT): 0
+0352.641 (0) Table wp_wc_order_addresses: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1313) in 0.01 seconds
+0352.659 (0) Table wp_wc_order_addresses: finishing file(s) (2, 0.5 KB)
+0352.668 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0352.672 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=717) in 0.00 seconds
+0352.691 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0352.701 (0) Table wp_wc_order_operational_data: Total expected rows (via COUNT): 0
+0352.705 (0) Table wp_wc_order_operational_data: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1523) in 0.00 seconds
+0352.723 (0) Table wp_wc_order_operational_data: finishing file(s) (2, 0.6 KB)
+0352.732 (0) Table wp_wc_order_product_lookup: Total expected rows (approximate): 0
+0352.735 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=1309) in 0.00 seconds
+0352.752 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0352.762 (0) Table wp_wc_order_stats: Total expected rows (via COUNT): 0
+0352.765 (0) Table wp_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1229) in 0.01 seconds
+0352.785 (0) Table wp_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0352.795 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0352.798 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=799) in 0.00 seconds
+0352.816 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0352.824 (0) Table wp_wc_orders: Total expected rows (via COUNT): 0
+0352.828 (0) Table wp_wc_orders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1688) in 0.00 seconds
+0352.844 (0) Table wp_wc_orders: finishing file(s) (2, 0.6 KB)
+0352.852 (0) Table wp_wc_orders_meta: Total expected rows (via COUNT): 0
+0352.857 (0) Table wp_wc_orders_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=751) in 0.01 seconds
+0352.877 (0) Table wp_wc_orders_meta: finishing file(s) (2, 0.4 KB)
+0352.887 (0) Table wp_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0352.893 (0) Table wp_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=862) in 0.01 seconds
+0352.910 (0) Table wp_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0352.919 (0) Table wp_wc_product_download_directories: Total expected rows (via COUNT): 2
+0352.922 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0352.928 (0) Table wp_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=901) in 0.01 seconds
+0352.950 (0) Table wp_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0352.959 (0) Table wp_wc_rate_limits: Total expected rows (via COUNT): 0
+0352.965 (0) Table wp_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=700) in 0.01 seconds
+0352.982 (0) Table wp_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0352.991 (0) Table wp_wc_webhooks: Total expected rows (via COUNT): 0
+0352.994 (0) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1230) in 0.00 seconds
+0353.015 (0) The time we have been running (353) is approaching the resumption interval (383) - increasing resumption interval to 384
+0353.021 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0353.031 (0) Table wp_wfauditevents: Total expected rows (via COUNT): 0
+0353.034 (0) Table wp_wfauditevents: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=705) in 0.00 seconds
+0353.051 (0) Table wp_wfauditevents: finishing file(s) (2, 0.4 KB)
+0353.059 (0) Table wp_wfblockediplog: Total expected rows (approximate): 0
+0353.063 (0) Table wp_wfblockediplog: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=629) in 0.00 seconds
+0353.080 (0) Table wp_wfblockediplog: finishing file(s) (2, 0.4 KB)
+0353.088 (0) Table wp_wfblocks7: Total expected rows (via COUNT): 0
+0353.091 (0) Table wp_wfblocks7: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=811) in 0.00 seconds
+0353.109 (0) Table wp_wfblocks7: finishing file(s) (2, 0.4 KB)
+0353.119 (0) Table wp_wfconfig: Total expected rows (approximate): 220
+0353.123 (0) Table wp_wfconfig: Rows added in this batch (next record: 1000): 220 (uncompressed bytes in this segment=10999) in 0.00 seconds
+0353.142 (0) Table wp_wfconfig: finishing file(s) (2, 3.1 KB)
+0353.152 (0) Table wp_wfcrawlers: Total expected rows (approximate): 0
+0353.155 (0) Table wp_wfcrawlers: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=552) in 0.00 seconds
+0353.175 (0) Table wp_wfcrawlers: finishing file(s) (2, 0.3 KB)
+0353.187 (0) Table wp_wffilechanges: Total expected rows (approximate): 0
+0353.191 (0) Table wp_wffilechanges: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=452) in 0.00 seconds
+0353.211 (0) Table wp_wffilechanges: finishing file(s) (2, 0.3 KB)
+0353.221 (0) Table wp_wffilemods: Total expected rows (approximate): 0
+0353.225 (0) Table wp_wffilemods: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=862) in 0.00 seconds
+0353.243 (0) Table wp_wffilemods: finishing file(s) (2, 0.4 KB)
+0353.251 (0) Table wp_wfhits: Total expected rows (via COUNT): 0
+0353.254 (0) Table wp_wfhits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=901) in 0.00 seconds
+0353.271 (0) Table wp_wfhits: finishing file(s) (2, 0.5 KB)
+0353.281 (0) Table wp_wfhoover: Total expected rows (via COUNT): 0
+0353.284 (0) Table wp_wfhoover: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=476) in 0.00 seconds
+0353.301 (0) Table wp_wfhoover: finishing file(s) (2, 0.3 KB)
+0353.310 (0) Table wp_wfissues: Total expected rows (via COUNT): 0
+0353.314 (0) Table wp_wfissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=804) in 0.00 seconds
+0353.331 (0) Table wp_wfissues: finishing file(s) (2, 0.4 KB)
+0353.340 (0) Table wp_wfknownfilelist: Total expected rows (via COUNT): 0
+0353.343 (0) Table wp_wfknownfilelist: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=465) in 0.00 seconds
+0353.360 (0) Table wp_wfknownfilelist: finishing file(s) (2, 0.3 KB)
+0353.368 (0) Table wp_wflivetraffichuman: Total expected rows (approximate): 0
+0353.371 (0) Table wp_wflivetraffichuman: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=648) in 0.00 seconds
+0353.388 (0) Table wp_wflivetraffichuman: finishing file(s) (2, 0.3 KB)
+0353.396 (0) Table wp_wflocs: Total expected rows (approximate): 0
+0353.399 (0) Table wp_wflocs: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=682) in 0.00 seconds
+0353.416 (0) Table wp_wflocs: finishing file(s) (2, 0.4 KB)
+0353.424 (0) Table wp_wflogins: Total expected rows (via COUNT): 0
+0353.427 (0) Table wp_wflogins: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=681) in 0.00 seconds
+0353.444 (0) Table wp_wflogins: finishing file(s) (2, 0.4 KB)
+0353.454 (0) Table wp_wfls_2fa_secrets: Total expected rows (via COUNT): 0
+0353.457 (0) Table wp_wfls_2fa_secrets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=681) in 0.00 seconds
+0353.475 (0) Table wp_wfls_2fa_secrets: finishing file(s) (2, 0.4 KB)
+0353.485 (0) Table wp_wfls_role_counts: Total expected rows (approximate): 0
+0353.488 (0) Table wp_wfls_role_counts: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=550) in 0.00 seconds
+0353.506 (0) Table wp_wfls_role_counts: finishing file(s) (2, 0.3 KB)
+0353.516 (0) Table wp_wfls_settings: Total expected rows (approximate): 26
+0353.519 (0) Table wp_wfls_settings: Rows added in this batch (next record: 1000): 26 (uncompressed bytes in this segment=1888) in 0.00 seconds
+0353.538 (0) Table wp_wfls_settings: finishing file(s) (2, 0.9 KB)
+0353.547 (0) Table wp_wfnotifications: Total expected rows (approximate): 0
+0353.551 (0) Table wp_wfnotifications: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=616) in 0.00 seconds
+0353.569 (0) Table wp_wfnotifications: finishing file(s) (2, 0.4 KB)
+0353.580 (0) Table wp_wfpendingissues: Total expected rows (via COUNT): 0
+0353.583 (0) Table wp_wfpendingissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=846) in 0.00 seconds
+0353.601 (0) Table wp_wfpendingissues: finishing file(s) (2, 0.4 KB)
+0353.610 (0) Table wp_wfreversecache: Total expected rows (approximate): 0
+0353.614 (0) Table wp_wfreversecache: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=497) in 0.00 seconds
+0353.633 (0) Table wp_wfreversecache: finishing file(s) (2, 0.3 KB)
+0353.643 (0) Table wp_wfsecurityevents: Total expected rows (via COUNT): 0
+0353.647 (0) Table wp_wfsecurityevents: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=678) in 0.00 seconds
+0353.666 (0) Table wp_wfsecurityevents: finishing file(s) (2, 0.4 KB)
+0353.675 (0) Table wp_wfsnipcache: Total expected rows (via COUNT): 0
+0353.679 (0) Table wp_wfsnipcache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=701) in 0.00 seconds
+0353.698 (0) Table wp_wfsnipcache: finishing file(s) (2, 0.4 KB)
+0353.709 (0) Table wp_wfstatus: Total expected rows (via COUNT): 0
+0353.714 (0) Table wp_wfstatus: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=552) in 0.01 seconds
+0353.735 (0) Table wp_wfstatus: finishing file(s) (2, 0.4 KB)
+0353.747 (0) Table wp_wftrafficrates: Total expected rows (approximate): 0
+0353.751 (0) Table wp_wftrafficrates: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=566) in 0.00 seconds
+0353.770 (0) Table wp_wftrafficrates: finishing file(s) (2, 0.3 KB)
+0353.780 (0) Table wp_wfwaffailures: Total expected rows (via COUNT): 0
+0353.784 (0) Table wp_wfwaffailures: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=527) in 0.00 seconds
+0353.804 (0) Table wp_wfwaffailures: finishing file(s) (2, 0.3 KB)
+0353.816 (0) Table wp_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0353.820 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1046) in 0.01 seconds
+0353.841 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.5 KB)
+0353.852 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0353.856 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=961) in 0.01 seconds
+0353.875 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0353.887 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0353.890 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1538) in 0.00 seconds
+0353.910 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0353.924 (0) Table wp_woocommerce_log: Total expected rows (via COUNT): 0
+0353.928 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=722) in 0.01 seconds
+0353.948 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0353.958 (0) Table wp_woocommerce_order_items: Total expected rows (via COUNT): 0
+0353.962 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=739) in 0.00 seconds
+0353.980 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0353.988 (0) Table wp_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0353.992 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=841) in 0.00 seconds
+0354.013 (0) The time we have been running (354) is approaching the resumption interval (384) - increasing resumption interval to 385
+0354.019 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0354.031 (0) Table wp_woocommerce_sessions: Total expected rows (via COUNT): 1
+0354.033 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0354.038 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1672) in 0.01 seconds
+0354.059 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 0.7 KB)
+0354.069 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0354.075 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=866) in 0.01 seconds
+0354.093 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0354.102 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+0354.106 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=775) in 0.00 seconds
+0354.124 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0354.132 (0) Table wp_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+0354.135 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=633) in 0.00 seconds
+0354.151 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0354.160 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0354.163 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=848) in 0.00 seconds
+0354.180 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0354.189 (0) Table wp_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0354.193 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1301) in 0.00 seconds
+0354.213 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0354.216 (0) PHP event: code E_WARNING: filemtime(): stat failed for /var/www/html/wp-content/updraft/backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db.gz (line 1923, wp-content/plugins/updraftplus/backup.php)
+0354.234 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_options.table.tmpr632.gz (1/76/fopen): adding to final database dump
+0354.355 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_options.table.gz (2/76/fopen): adding to final database dump
+0354.358 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_users.table.tmpr2.gz (3/76/fopen): adding to final database dump
+0354.364 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_users.table.gz (4/76/fopen): adding to final database dump
+0354.367 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_usermeta.table.tmpr28.gz (5/76/fopen): adding to final database dump
+0354.373 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_usermeta.table.gz (6/76/fopen): adding to final database dump
+0354.377 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_actionscheduler_actions.table.tmpr21.gz (7/76/fopen): adding to final database dump
+0354.382 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_actionscheduler_actions.table.gz (8/76/fopen): adding to final database dump
+0354.386 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/76/fopen): adding to final database dump
+0354.391 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_actionscheduler_claims.table.gz (10/76/fopen): adding to final database dump
+0354.394 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_actionscheduler_groups.table.tmpr6.gz (11/76/fopen): adding to final database dump
+0354.400 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_actionscheduler_groups.table.gz (12/76/fopen): adding to final database dump
+0354.403 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_actionscheduler_logs.table.tmpr17.gz (13/76/fopen): adding to final database dump
+0354.408 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_actionscheduler_logs.table.gz (14/76/fopen): adding to final database dump
+0354.411 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_commentmeta.table.tmpr0.gz (15/76/fopen): adding to final database dump
+0354.417 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_commentmeta.table.gz (16/76/fopen): adding to final database dump
+0354.421 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_comments.table.tmpr2.gz (17/76/fopen): adding to final database dump
+0354.427 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_comments.table.gz (18/76/fopen): adding to final database dump
+0354.431 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_links.table.tmpr0.gz (19/76/fopen): adding to final database dump
+0354.437 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_links.table.gz (20/76/fopen): adding to final database dump
+0354.440 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_postmeta.table.tmpr115.gz (21/76/fopen): adding to final database dump
+0354.446 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_postmeta.table.gz (22/76/fopen): adding to final database dump
+0354.450 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_posts.table.tmpr21.gz (23/76/fopen): adding to final database dump
+0354.458 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_posts.table.gz (24/76/fopen): adding to final database dump
+0354.462 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_term_relationships.table.tmpr100001.gz (25/76/fopen): adding to final database dump
+0354.468 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_term_relationships.table.gz (26/76/fopen): adding to final database dump
+0354.471 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_term_taxonomy.table.tmpr17.gz (27/76/fopen): adding to final database dump
+0354.476 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_term_taxonomy.table.gz (28/76/fopen): adding to final database dump
+0354.480 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_termmeta.table.tmpr2.gz (29/76/fopen): adding to final database dump
+0354.484 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_termmeta.table.gz (30/76/fopen): adding to final database dump
+0354.487 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_terms.table.tmpr17.gz (31/76/fopen): adding to final database dump
+0354.492 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_terms.table.gz (32/76/fopen): adding to final database dump
+0354.495 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_category_lookup.table.tmpr1.gz (33/76/fopen): adding to final database dump
+0354.500 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_category_lookup.table.gz (34/76/fopen): adding to final database dump
+0354.503 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_product_meta_lookup.table.tmpr19.gz (35/76/fopen): adding to final database dump
+0354.508 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_product_meta_lookup.table.gz (36/76/fopen): adding to final database dump
+0354.512 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_reserved_stock.table.tmpr1.gz (37/76/fopen): adding to final database dump
+0354.518 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_reserved_stock.table.gz (38/76/fopen): adding to final database dump
+0354.521 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (39/76/fopen): adding to final database dump
+0354.527 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_tax_rate_classes.table.gz (40/76/fopen): adding to final database dump
+0354.530 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_woocommerce_order_itemmeta.table.tmpr0.gz (41/76/fopen): adding to final database dump
+0354.536 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_woocommerce_order_itemmeta.table.gz (42/76/fopen): adding to final database dump
+0354.539 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (43/76/fopen): adding to final database dump
+0354.545 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_woocommerce_payment_tokenmeta.table.gz (44/76/fopen): adding to final database dump
+0354.548 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_e_events.table.tmpr0.gz (45/76/fopen): adding to final database dump
+0354.554 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_e_events.table.gz (46/76/fopen): adding to final database dump
+0354.557 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_admin_note_actions.table.tmpr859.gz (47/76/fopen): adding to final database dump
+0354.564 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_admin_note_actions.table.gz (48/76/fopen): adding to final database dump
+0354.568 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_admin_notes.table.tmpr56.gz (49/76/fopen): adding to final database dump
+0354.578 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_admin_notes.table.gz (50/76/fopen): adding to final database dump
+0354.582 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_customer_lookup.table.tmpr0.gz (51/76/fopen): adding to final database dump
+0354.588 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_customer_lookup.table.gz (52/76/fopen): adding to final database dump
+0354.592 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_download_log.table.tmpr0.gz (53/76/fopen): adding to final database dump
+0354.597 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_download_log.table.gz (54/76/fopen): adding to final database dump
+0354.601 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_order_addresses.table.tmpr0.gz (55/76/fopen): adding to final database dump
+0354.607 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_order_addresses.table.gz (56/76/fopen): adding to final database dump
+0354.611 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_order_coupon_lookup.table.tmpr1.gz (57/76/fopen): adding to final database dump
+0354.616 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_order_coupon_lookup.table.gz (58/76/fopen): adding to final database dump
+0354.619 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_order_operational_data.table.tmpr0.gz (59/76/fopen): adding to final database dump
+0354.624 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_order_operational_data.table.gz (60/76/fopen): adding to final database dump
+0354.627 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_order_product_lookup.table.tmpr1.gz (61/76/fopen): adding to final database dump
+0354.633 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_order_product_lookup.table.gz (62/76/fopen): adding to final database dump
+0354.636 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_order_stats.table.tmpr0.gz (63/76/fopen): adding to final database dump
+0354.642 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_order_stats.table.gz (64/76/fopen): adding to final database dump
+0354.646 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_order_tax_lookup.table.tmpr1.gz (65/76/fopen): adding to final database dump
+0354.651 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_order_tax_lookup.table.gz (66/76/fopen): adding to final database dump
+0354.655 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_orders.table.tmpr0.gz (67/76/fopen): adding to final database dump
+0354.660 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_orders.table.gz (68/76/fopen): adding to final database dump
+0354.664 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_orders_meta.table.tmpr0.gz (69/76/fopen): adding to final database dump
+0354.671 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_orders_meta.table.gz (70/76/fopen): adding to final database dump
+0354.674 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_product_attributes_lookup.table.tmpr1.gz (71/76/fopen): adding to final database dump
+0354.679 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_product_attributes_lookup.table.gz (72/76/fopen): adding to final database dump
+0354.682 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_product_download_directories.table.tmpr3.gz (73/76/fopen): adding to final database dump
+0354.687 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_product_download_directories.table.gz (74/76/fopen): adding to final database dump
+0354.691 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_rate_limits.table.tmpr0.gz (75/76/fopen): adding to final database dump
+0354.695 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_rate_limits.table.gz (76/76/fopen): adding to final database dump
+0354.698 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_webhooks.table.tmpr0.gz (77/76/fopen): adding to final database dump
+0354.703 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wc_webhooks.table.gz (78/76/fopen): adding to final database dump
+0354.706 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfauditevents.table.tmpr0.gz (79/76/fopen): adding to final database dump
+0354.711 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfauditevents.table.gz (80/76/fopen): adding to final database dump
+0354.714 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfblockediplog.table.tmpr1.gz (81/76/fopen): adding to final database dump
+0354.719 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfblockediplog.table.gz (82/76/fopen): adding to final database dump
+0354.721 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfblocks7.table.tmpr0.gz (83/76/fopen): adding to final database dump
+0354.726 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfblocks7.table.gz (84/76/fopen): adding to final database dump
+0354.732 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfconfig.table.tmpr1001.gz (85/76/fopen): adding to final database dump
+0354.739 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfconfig.table.gz (86/76/fopen): adding to final database dump
+0354.742 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfcrawlers.table.tmpr1.gz (87/76/fopen): adding to final database dump
+0354.748 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfcrawlers.table.gz (88/76/fopen): adding to final database dump
+0354.751 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wffilechanges.table.tmpr1.gz (89/76/fopen): adding to final database dump
+0354.756 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wffilechanges.table.gz (90/76/fopen): adding to final database dump
+0354.759 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wffilemods.table.tmpr1.gz (91/76/fopen): adding to final database dump
+0354.764 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wffilemods.table.gz (92/76/fopen): adding to final database dump
+0354.767 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfhits.table.tmpr0.gz (93/76/fopen): adding to final database dump
+0354.772 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfhits.table.gz (94/76/fopen): adding to final database dump
+0354.775 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfhoover.table.tmpr0.gz (95/76/fopen): adding to final database dump
+0354.780 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfhoover.table.gz (96/76/fopen): adding to final database dump
+0354.784 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfissues.table.tmpr0.gz (97/76/fopen): adding to final database dump
+0354.787 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfissues.table.gz (98/76/fopen): adding to final database dump
+0354.791 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfknownfilelist.table.tmpr0.gz (99/76/fopen): adding to final database dump
+0354.800 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfknownfilelist.table.gz (100/76/fopen): adding to final database dump
+0354.804 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wflivetraffichuman.table.tmpr1.gz (101/76/fopen): adding to final database dump
+0354.807 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wflivetraffichuman.table.gz (102/76/fopen): adding to final database dump
+0354.810 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wflocs.table.tmpr1.gz (103/76/fopen): adding to final database dump
+0354.816 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wflocs.table.gz (104/76/fopen): adding to final database dump
+0354.819 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wflogins.table.tmpr0.gz (105/76/fopen): adding to final database dump
+0354.824 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wflogins.table.gz (106/76/fopen): adding to final database dump
+0354.827 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfls_2fa_secrets.table.tmpr0.gz (107/76/fopen): adding to final database dump
+0354.831 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfls_2fa_secrets.table.gz (108/76/fopen): adding to final database dump
+0354.835 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfls_role_counts.table.tmpr1.gz (109/76/fopen): adding to final database dump
+0354.839 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfls_role_counts.table.gz (110/76/fopen): adding to final database dump
+0354.843 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfls_settings.table.tmpr1001.gz (111/76/fopen): adding to final database dump
+0354.848 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfls_settings.table.gz (112/76/fopen): adding to final database dump
+0354.851 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfnotifications.table.tmpr1.gz (113/76/fopen): adding to final database dump
+0354.856 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfnotifications.table.gz (114/76/fopen): adding to final database dump
+0354.859 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfpendingissues.table.tmpr0.gz (115/76/fopen): adding to final database dump
+0354.864 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfpendingissues.table.gz (116/76/fopen): adding to final database dump
+0354.867 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfreversecache.table.tmpr1.gz (117/76/fopen): adding to final database dump
+0354.872 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfreversecache.table.gz (118/76/fopen): adding to final database dump
+0354.875 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfsecurityevents.table.tmpr0.gz (119/76/fopen): adding to final database dump
+0354.879 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfsecurityevents.table.gz (120/76/fopen): adding to final database dump
+0354.883 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfsnipcache.table.tmpr0.gz (121/76/fopen): adding to final database dump
+0354.888 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfsnipcache.table.gz (122/76/fopen): adding to final database dump
+0354.891 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfstatus.table.tmpr0.gz (123/76/fopen): adding to final database dump
+0354.896 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfstatus.table.gz (124/76/fopen): adding to final database dump
+0354.899 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wftrafficrates.table.tmpr1.gz (125/76/fopen): adding to final database dump
+0354.903 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wftrafficrates.table.gz (126/76/fopen): adding to final database dump
+0354.907 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfwaffailures.table.tmpr0.gz (127/76/fopen): adding to final database dump
+0354.912 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_wfwaffailures.table.gz (128/76/fopen): adding to final database dump
+0354.915 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (129/76/fopen): adding to final database dump
+0354.919 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_woocommerce_api_keys.table.gz (130/76/fopen): adding to final database dump
+0354.922 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr0.gz (131/76/fopen): adding to final database dump
+0354.927 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_woocommerce_attribute_taxonomies.table.gz (132/76/fopen): adding to final database dump
+0354.930 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (133/76/fopen): adding to final database dump
+0354.935 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (134/76/fopen): adding to final database dump
+0354.938 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_woocommerce_log.table.tmpr0.gz (135/76/fopen): adding to final database dump
+0354.943 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_woocommerce_log.table.gz (136/76/fopen): adding to final database dump
+0354.946 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_woocommerce_order_items.table.tmpr0.gz (137/76/fopen): adding to final database dump
+0354.951 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_woocommerce_order_items.table.gz (138/76/fopen): adding to final database dump
+0354.954 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (139/76/fopen): adding to final database dump
+0354.959 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_woocommerce_payment_tokens.table.gz (140/76/fopen): adding to final database dump
+0354.963 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_woocommerce_sessions.table.tmpr2.gz (141/76/fopen): adding to final database dump
+0354.967 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_woocommerce_sessions.table.gz (142/76/fopen): adding to final database dump
+0354.970 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr0.gz (143/76/fopen): adding to final database dump
+0354.975 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_woocommerce_shipping_zone_locations.table.gz (144/76/fopen): adding to final database dump
+0354.978 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr0.gz (145/76/fopen): adding to final database dump
+0354.983 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_woocommerce_shipping_zone_methods.table.gz (146/76/fopen): adding to final database dump
+0354.987 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_woocommerce_shipping_zones.table.tmpr0.gz (147/76/fopen): adding to final database dump
+0354.992 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_woocommerce_shipping_zones.table.gz (148/76/fopen): adding to final database dump
+0354.995 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (149/76/fopen): adding to final database dump
+0354.999 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_woocommerce_tax_rate_locations.table.gz (150/76/fopen): adding to final database dump
+0355.001 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_woocommerce_tax_rates.table.tmpr0.gz (151/76/fopen): adding to final database dump
+0355.006 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db-table-wp_woocommerce_tax_rates.table.gz (152/76/fopen): adding to final database dump
+0355.026 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db.gz: finished writing out complete database file (256.2 KB)
+0355.152 (0) Total database tables backed up: 76 (backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db.gz, size: 262439, sha1: 51b3ec602e4dbe3087fc0241157c863b10ba4c0d, sha256: f603e7591cc91e90834701d1e2ba144a7fb13abcae88aac41d2cb5c97283990a)
+0355.163 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-plugins.zip: plugins: This file has already been successfully processed
+0355.165 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-themes.zip: themes: This file has already been successfully processed
+0355.167 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-uploads.zip: uploads: This file has already been successfully processed
+0355.169 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-others.zip: others: This file has already been successfully processed
+0355.172 (0) backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db.gz: db: This file has not yet been successfully uploaded: will queue
+0355.175 (0) Saving backup history. Total backup size: 85 MB
+0355.179 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0355.185 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0355.188 (0) No remote despatch: user chose no remote backup service
+0355.189 (0) Recording as successfully uploaded: backup_2025-11-09-1449_Bois_Mtal_Evasion_00efb6a586f6-db.gz
+0355.196 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0355.198 (0) Number of backup sets in history: 1; groups (db): 1
+0355.201 (0) Examining (for databases) backup set with group_id=0, nonce=00efb6a586f6, datestamp=1762696162 (Nov 09 2025 13:49:22)
+0355.203 (0) This backup set is the backup set just made, so will not be deleted.
+0355.203 (0) Number of backup sets in history: 1; groups (files): 1
+0355.204 (0) Examining (for files) backup set with nonce=00efb6a586f6, datestamp=1762696162 (Nov 09 2025 13:49:22)
+0355.205 (0) This backup set is the backup set just made, so will not be deleted.
+0355.207 (0) This backup set is the backup set just made, so will not be deleted.
+0355.207 (0) This backup set is the backup set just made, so will not be deleted.
+0355.207 (0) This backup set is the backup set just made, so will not be deleted.
+0355.207 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0355.208 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0355.212 (0) Resume backup (00efb6a586f6, 0): finish run
+0355.217 (0) Decremented the semaphore (fd) by 1
+0355.221 (0) Semaphore (fd) unlocked
+0355.223 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0355.228 (0) The backup succeeded and is now complete
+0355.232 (0) No email will/can be sent - the user has not configured an email address.
+0355.233 (0) La sauvegarde a réussi et est maintenant terminée
